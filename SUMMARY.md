@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Page 1](README.md)
+* [GraphQL 기초](README.md)
