@@ -1,26 +1,18 @@
 {
-  "name": "study_graphql",
+  "name": "1-3-graphql-exp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "test",
     "start": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KimMingeon0625/STUDY_GRAPHQL.git"
-  },
-  "author": "",
+  "author": "yalco",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KimMingeon0625/STUDY_GRAPHQL/issues"
-  },
-  "homepage": "https://github.com/KimMingeon0625/STUDY_GRAPHQL#readme",
   "dependencies": {
-    "apollo-server": "^3.4.0",
-    "convert-csv-to-json": "^1.3.1",
-    "graphql": "^15.7.2",
-    "nodemon": "^2.0.14"
+    "apollo-server": "^2.19.0",
+    "convert-csv-to-json": "^1.0.0",
+    "graphql": "^15.4.0"
+    
   }
 }
