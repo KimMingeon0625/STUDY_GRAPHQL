@@ -1,10 +1,12 @@
 const { gql } = require('apollo-server')
+
 const typeDefs = gql`
     interface Tool {
         id: ID!
         used_by: Role!
     }
 `
+
 const resolvers = {
     Tool: {
         __resolveType(tool, context, info) {
@@ -18,6 +20,7 @@ const resolvers = {
         }
     }
 }
+
 module.exports = {
     typeDefs: typeDefs,
     resolvers: resolvers
