@@ -328,7 +328,7 @@ console.log(`🚀  Server ready at ${url}`)
 
 리팩토링을 위한 정리
 
-Overfetching과 Underfetching에서 장점 가져가는 부분에서 RestAPI에 비해 Back과 Front의 협업이 한층 수월해 질 것으로 보인다. 기존 response를 Back에서 전적으로 담당하던 것에 대해 그 영역이 Front로 넘어간 것으로 overfetching이나 underfetching을 해소하기 위한 중복적인 개발도 감소 할 것으로 예상된다.
+RestAPI에 비해 Back과 Front의 협업이 한층 수월해 질 것으로 보인다. 기존 response를 Back에서 전적으로 담당하던 것에 대해 그 영역이 Front로 넘어간 것으로 overfetching이나 underfetching을 해소하기 위한 중복적인 개발도 감소 할 것으로 예상된다.
 
 
 
